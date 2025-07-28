@@ -29,7 +29,7 @@ python app.py
 2. Connect your GitHub repository
 3. Configure the following settings:
    - **Build Command**: `pip install -r requirements.txt`
-   - **Start Command**: `gunicorn wsgi:app.server`
+   - **Start Command**: `gunicorn wsgi:application`
    - **Environment**: Python 3
 
 4. Deploy!
